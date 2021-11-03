@@ -1,0 +1,78 @@
+/* .spisok:nth-child(even).spisok{
+font-size: 20px;
+color: red;
+}
+.spisok:nth-child(odd).spisok{
+    font-size: 30px;
+    color:blue;
+}
+.spisok:nth-child(3n+2).spisok{
+    font-size: 50px;
+    color:palevioletred;
+}
+.spisok:nth-child(8).spisok{
+    font-size: 20px;
+    color:yellow;
+}
+.go{
+text-decoration: none; 
+} */
+
+.text_1{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 29px;
+}
+.text_2{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    margin-left: 29px;
+}
+.silka_1{
+    margin-left: 29px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    line-height: 1;
+    display: inline-block;
+}
+.silka_1::after{
+    content: ">";
+    width: 21px;
+    height: 18px;
+    position: absolute;
+    left: 250px;
+}
+.silka_1:hover::after{
+    transform: translateX(10px)
+}
+.silka_2{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    bottom: 0;
+    position: relative;
+    line-height: 1;
+}
+.silka_2::after{
+    width: 30px;
+    height: 30px;
+    content: url(img/obodok.svg);
+    display: inline-block;
+    margin-left: 20px;
+}
+.silka_2::before{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    content: url(img/strelka.svg);
+    display: inline-block;
+    left: 418.5px;
+    bottom: 5.5px;
+    margin-left: 0;
+}
+.silka_2:hover::after{
+    transform: rotate(-50deg)
+}
