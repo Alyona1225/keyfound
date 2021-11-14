@@ -1,0 +1,44 @@
+.red{ 
+     background-color: red;
+     width: 500px;
+     height: 150px;
+     margin: 0 auto;
+}
+.green{
+    background-color: green;
+    width:500px;
+    height: 150px;
+    border-color: seagreen;
+    margin: 0 auto ;
+
+}
+.blue{
+    width:500px;
+    height:150px;
+    background-color: blue;
+    margin: 0 auto; 
+}
+.inline-red{
+    width:120px;
+    height:100px;
+    background-color:red;
+
+    margin-top: 10px;
+    display: inline-block ;
+}
+.inline-blue{
+    width:100px;
+    height:100px;
+    background-color:blue;
+
+    margin-top: 10px;
+    display: inline-block ;
+}
+.inline-green{
+    width:100px;
+    height:100px;
+    background-color:green;
+
+    margin-top: 10px;
+    display: inline-block ;
+}
