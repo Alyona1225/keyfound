@@ -1,0 +1,16 @@
+.fuk-card-ooter{
+    background-color: rgb(218, 212, 212);
+}
+.uk-card-body{
+    color:rgb(141, 141, 141); 
+    margin-left: -30px;
+    font-size: 14.5px;
+    margin-top: -30px;
+}
+.uk-text-meta{
+    display: flex;
+    justify-content: end;
+}
+.ikons{
+    margin: 3px;
+}
